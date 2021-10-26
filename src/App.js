@@ -1,7 +1,7 @@
 
 import './App.css';
 import MainArea from './components/dashboard-main-area/MainArea';
-import Sidebar from './components/sidebar/Sidebar';
+import Sidebar from './components/sidebar-left/Sidebar';
 
 function App() {
   return (
