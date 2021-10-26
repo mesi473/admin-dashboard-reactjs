@@ -1,0 +1,63 @@
+.sidebar-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 21%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.sidebar-right-section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    color: rgb(51, 50, 50);
+    
+}
+.sidebar-right-section1 a{
+    color: rgb(247, 63, 63);
+}
+.sidebar-right-border{
+    border-bottom:3px solid #ebedeb;
+}
+.sidebar-right-section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    font-size: 15px;
+    color: rgb(51, 50, 50);
+    
+}
+.sidebar-right-direction{
+    display: flex;
+    flex-direction: row;
+}
+.arrow-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 25px;
+    height: 25px;
+}
+.calender{
+    width: 100%;
+    height: 30%;
+    border-bottom:3px solid #ebedeb;
+}
+.file-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.file-icon img{
+    width: 250px;
+    height: 250px;
+}
