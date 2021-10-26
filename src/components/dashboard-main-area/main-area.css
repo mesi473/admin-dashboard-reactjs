@@ -1,0 +1,42 @@
+.mainArea{
+    width: 75%;
+    height: 100vh; 
+    position: relative;
+    left: 25%;
+}
+.mainArea .dashboard{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(75, 75, 75);
+    position: relative;
+    top: 5%;
+    left: 3%;
+}
+.mainArea .card{
+    background-color: #0e71c7;
+    position: relative;
+    margin-top: 6%;
+    left: 3%;
+    width: 55%;
+    height: 15%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.mainArea .card:first-child{
+    display: flex;
+    flex-direction: column;
+    
+}
+.mainArea .button{
+    padding: 20px;
+    cursor: pointer;
+    width: 150px;
+    height: 15%;
+    color: white;
+    background-color: rgb(231, 120, 28);
+}

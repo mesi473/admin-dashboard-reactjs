@@ -40,15 +40,18 @@
     margin-top: 50px;
 }
 .dashboard-logout-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
     margin-bottom: 50px;
-
+    background-color: rgba(0,0,0,0.5);
 }
 .icon{
     cursor: pointer;
 }
-.dashboard-main-icons{
-    
-}
+
 .sidebare-2 .logo{
     display: flex;
     flex-direction: row;
