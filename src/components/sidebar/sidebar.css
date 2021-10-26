@@ -1,0 +1,164 @@
+.sidebare-main{
+    width: 25%;
+    height: 100vh;
+    /* background-color: white; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.sidebare-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: #0e71c7;
+}
+.sidebare-2{
+    position: absolute;
+    left: 20%;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 1px  rgb(63, 57, 57);
+}
+.sidebare-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+.dashboard-main-icons{
+    display: flex;
+    flex-direction: column;
+}
+.dashboard-icon{
+    margin-top: 50px;
+}
+.dashboard-logout-icon{
+    margin-bottom: 50px;
+
+}
+.icon{
+    cursor: pointer;
+}
+.dashboard-main-icons{
+    
+}
+.sidebare-2 .logo{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sidebare-2 .logo span{
+    margin-left: 20px;
+}
+.sidebare-2 .user{
+    display: flex;
+    flex-direction: row;
+    background-color: #bcccca;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.sidebare-2 .user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.sidebare-2 .user .name{
+    color: #729ec5;
+    font-weight: bold;
+}
+.sidebare-2 .user .user-detail{
+    justify-content: center;
+    align-items: center;
+}
+.sidebare-2 .user .user-detail-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.sidebare-2 .user .logoinas{
+    font-size: 15px;
+    color: rgb(166, 173, 173);
+}
+.sidebare-2 .Main-type{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.sidebare-2 .main-type-name{
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(166, 173, 173);
+}
+.sidebare-2 .Main-type .item{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.sidebare-2 .Main-type .item span{
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgb(166, 173, 173);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* top: -7px; */
+}
+.sidebare-2 .link{
+    align-items: center;
+    text-align: center;
+}
+.sidebare-2 .link a{
+    color: #0e71c7;
+    
+    
+}
+.badge{
+    background-color: rgb(235, 171, 33);
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: 7px;
+}
+.badge1{
+    background-color: rgb(235, 171, 33);
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: 34px;
+}
+.badge2{
+    background-color: rgb(235, 171, 33);
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -40px;
+    left: 15px;
+}
